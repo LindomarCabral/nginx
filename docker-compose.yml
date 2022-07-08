@@ -2,7 +2,7 @@ version: '3'
 
 services:
   nginx:
-    image: ubuntu/nginx
+    image: ubuntu/nginx:1.18-20.04_beta
     container_name: nginx
     ports:
       - "80:80"
